@@ -71,13 +71,14 @@ python export_procedures.py
 
 ## Output structure
 
-```procedures/
-<catalog>/
-<schema>/
-function/
-routine_name__argtypes.sql
-procedure/
-routine_name__argtypes.sql
+```
+procedures/
+  <catalog>/
+    <schema>/
+      function/
+        routine_name__argtypes.sql
+      procedure/
+        routine_name__argtypes.sql
 ```
 
 Overloaded routines are exported using their identity argument list to ensure deterministic filenames.
