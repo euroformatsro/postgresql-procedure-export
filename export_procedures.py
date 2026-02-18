@@ -23,8 +23,6 @@ class Routine:
 OUTPUT_DIR = Path(__file__).parent / "procedures"
 
 DEFAULT_SCHEMAS = ["public"]
-# Your legacy defaults (keep or remove)
-DEFAULT_SCHEMAS = ["old_db", "scoring"]
 
 
 def env_required(key: str) -> str:
