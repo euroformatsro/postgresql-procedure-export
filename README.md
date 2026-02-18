@@ -76,9 +76,9 @@ procedures/
   <catalog>/
     <schema>/
       function/
-        routine_name__argtypes.sql
+        rroutine_name__identity_args.sql
       procedure/
-        routine_name__argtypes.sql
+        routine_name__identity_args.sql
 ```
 
 Overloaded routines are exported using their identity argument list to ensure deterministic filenames.
