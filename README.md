@@ -76,7 +76,7 @@ procedures/
   <catalog>/
     <schema>/
       function/
-        rroutine_name__identity_args.sql
+        routine_name__identity_args.sql
       procedure/
         routine_name__identity_args.sql
 ```
